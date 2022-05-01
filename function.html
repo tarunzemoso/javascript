@@ -1,0 +1,16 @@
+<htmL>
+<body>
+    <button  onclick="squareIt(valueVariable)">click</button>
+</body>
+<script>
+    var p = 5;
+    function valueVariable() {
+        console.log(p);
+        return p;
+    }
+function squareIt(func) {
+       p=func()*func();
+        console.log(p);
+}
+</script>
+</htmL>

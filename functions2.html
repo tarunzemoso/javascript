@@ -1,0 +1,27 @@
+<htmL>
+    <head>
+        <style>
+            .highlight {
+              color: white;
+              background-color: black;
+              padding: 10px;
+              width: 250px;
+              text-align: center;
+            }
+            </style>
+    </head>
+    <body>
+        <p>Hello all</p>
+        <button  onclick="show()">click</button>
+    </body>
+    <script>
+        para=document.querySelector('p');
+        para.setAttribute('class', 'highlight');
+function add(a,b){
+    return a.charAt(0)+b.charAt(0);
+}
+function show(){
+    console.log(add("Roger","Waters"));
+}
+</script>
+</htmL>
